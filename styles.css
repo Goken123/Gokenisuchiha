@@ -1,0 +1,37 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.messages {
+  height: 300px;
+  overflow-y: scroll;
+  border: 1px solid white;
+  margin-bottom: 20px;
+}
+
+.chat-box input[type="text"] {
+  width: calc(100% - 70px);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.chat-box button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.chat-box button:hover {
+  background-color: #555;
+}

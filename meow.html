@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Messaging Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="messages" id="messages">
+      <!-- Messages will be displayed here -->
+    </div>
+    <div class="chat-box">
+      <input type="text" id="username" placeholder="Enter your username">
+      <input type="text" id="message" placeholder="Type your message...">
+      <button onclick="sendMessage()">Send</button>
+      <button onclick="clearMessages()">Delete All Messages</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
